@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Plan My Journey | LAMATA</title>
+    <link rel="shortcut icon" href="images/favicon.ico" sizes="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plan your journey lagos">
+    <meta name="keywords" content="journey, lagos, brt, traffic, lasgidi">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700|lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+
+
+   
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+ 
+    <script src="code.jquery.com/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <nav class="navbar navbar-default navbar-fixed-top" style="background:#006bb6;">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+            <span class="sr-only">Plan My Journey</span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+          </button>
+                        <a class="navbar-brand page-scroll" href="#main"><img src="images/logo_lamata.png" width="50" height="51" alt="Lamata" /></a>
+                    </div>
+                    <!-- end of navbar -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav">
+                            <li><a class="page-scroll" href="https://planmyjourneylagos.com">Log out</a></li>
+                            <li><a class="page-scroll" href="#contact">Contact us</a></li>
+                            <li><a class="page-scroll" href="http://lamata-ng.com/" target="_blank"><strong>LAMATA</strong></a></li>
+                        </ul>
+
+                    </div>
+                    <!--end of nav navbar-nav-->
+                </div>
+                <!--end of nav container-->
+            </nav>
+            <!-- /.navbar-collapse -->
+
+        </div>
+        <!-- /.container-fluid -->
+
+ <div class="main back_landing" id="main">
+            <!-- Main Section-->
+
+<div class="hero-section no-color" style="background:#EEEEEE">
+<div class="container ">
+
+ <div class="container">
+    
+<div class="row">
+<div class="col-md-12 form-body" style="background:none; border:none">
+    <p class="" style="font-weight:100; font-style:italic"> <i class="fa fa-user"></i> Welcome <i style="font-style:regular; font-weight:400">Ademola,</i> </p>
+</div>
+
+    <div class="col-md-4">
+
+        <!-- <h2> Welcome <strong>Ade,</strong> </h1> -->
+
+        <div class="form-body">
+            <p> <i class="fa fa-clock-o"></i> Schedule your Journey</p>
+            <div class="tab-content">
+                <div id="sectionA" class="tab-pane fade in active">
+                    <div class="innter-form">
+                        <form class="sa-innate-form" action="route_plan.html">
+                            <label>From:</label>
+                            <input type="text" name="from" placeholder="" id=''>
+                            <label for="">To:</label>
+                            <input type="text" name="To" placeholder="" id=''>
+
+                            <div class="row clear">
+
+                                <div class="col-sm-12 col-xs-12" id="time">
+                                    <div id="demo"></div>
+                                    <select class="" id="">
+                            <option value="1">Departure&nbsp;</option>
+                            <option value="2">Arrival</option>
+                            </select>
+                                </div>
+
+
+                                <div class=" col-md-12">
+                                    <!-- <input type="text" name="time" value="Time" id='datepicker1'> -->
+                                    <input type="text" class="form-control" value="6pm" style="margin: 0;">
+
+                                </div>
+
+                                <div class=" col-md-12">
+                                    <!-- <input type="text" name="time" value="Date" id='datepicker1'> -->
+                                    <select>
+                                    <option>Everyday</option>
+                                    <option>Weekdays</option>
+                                    <option>Weekends</option>
+                                </select>
+                                    <!-- <div class="input-group date">
+                                <input type="text" class="form-control" value="12-02-2012" style="margin: 0;">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div> -->
+
+                                </div>
+
+                            </div>
+                            <!-- row -->
+
+                            <button type="submit"> <i class="fa fa-clock-o"></i> schedule my journey </button>
+                            <br>
+                        </form>
+                    </div>
+                    <!--end of innter form-->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-body">
+            <p> <i class="fa fa-bus"></i> Bus Near me</p>
+            <div class="tab-content">
+                <div id="sectionA" class="tab-pane fade in active">
+                    <div class="innter-form">
+                        <form class="sa-innate-form" action="route_plan.html">
+                           
+                            <label>Search for a bus near you</label>
+
+                            <input type="text" name="from" placeholder="Enter your location" id=''>
+                            <br>
+                            <button type="submit"> <i class="ionicons ion-android-search"></i> search </button>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-body">
+            <p><i class="fa fa-star"></i> Favorites</p>
+            <div class="tab-content">
+                <div id="sectionA" class="tab-pane fade in active">
+                    <div class="innter-form">
+                        <div class="sa-innate-form" action="route_plan.html">
+
+                            <div class="row">
+                                <div class="col-xs-1">1.</div>
+                                <div class="col-xs-8">IKD-TBS</div>
+                                <div class="col-xs-2">
+                                    <div class="btn btn-primary">Visit</div>
+                                </div>
+                            </div>
+                            <!-- row -->
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-1">2.</div>
+                                <div class="col-xs-8">Obanikoro-CMS</div>
+                                <div class="col-xs-2">
+                                    <div class="btn btn-primary">Visit</div>
+                                </div>
+                            </div>
+                            <!-- row -->
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-1">3.</div>
+                                <div class="col-xs-8">Obanikoro-Palm Groove</div>
+                                <div class="col-xs-2">
+                                    <div class="btn btn-primary">Visit</div>
+                                </div>
+                            </div>
+                            <!-- row -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    </div>
+    <!-- end of form -->
+
+
+    <div class="col-md-8">
+
+        <div class="panel panel-default form-body">
+            <div class="panel ">
+
+                <p style="text-align:center; font-style:italic;"> <i class="material-icons">watch_later</i> Trip time-table</p>
+
+                <div class="panel-body">
+
+
+                    <table class="table table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Start</th>
+                                <th>Destination</th>
+                                <th>Day</th>
+                                <th>Time </th>
+                                <th>View</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>Obanikoro</td>
+                                <td>CMS</td>
+                                <td>Saturday</td>
+                                <td>6:00am</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Obanikoro</td>
+                                <td>CMS</td>
+                                <td>Saturday</td>
+                                <td>6:10am</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td>Obanikoro</td>
+                                <td>CMS</td>
+                                <td>Saturday</td>
+                                <td>6:00am</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+                                </td>
+                            </tr>
+                            <tr>
+
+
+                                <td>CMS</td>
+                                <td>Obanikoro</td>
+                                <td>Saturday</td>
+                                <td>6:00pm</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+                            </tr>
+                            <tr>
+
+
+                                <td>CMS</td>
+                                <td>Obanikoro</td>
+                                <td>Saturday</td>
+                                <td>6:00pm</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+
+                            </tr>
+                            <tr>
+
+
+                                <td>CMS</td>
+                                <td>Obanikoro</td>
+                                <td>Saturday</td>
+                                <td>6:10pm</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+                            </tr>
+                            <tr>
+
+
+                                <td>CMS</td>
+                                <td>Obanikoro</td>
+                                <td>Saturday</td>
+                                <td>6:12pm</td>
+
+                                <td><a href="https://planmyjourneylagos.com" class="btn btn-sm btn-primary btn-block" role="button">More</a></td>
+
+
+                            </tr>
+
+                        </tbody>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
+</table>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+<!-- end of 2nd div -->
+
+
+
+
+</div>
+<!--end of rowr-->
+
+                        
+<!-- slot for the admin -->
+
+                       
+
+  
+
+                    </div>
+                    <!--end of container-->
+
+
+
+
+
+                    
+
+                <!-- </div> -->
+                <!--end of hero no-padding-->
+            </div>
+            <!--end of hero section no-colouring-->
+        </div>
+
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="col-md-7">
+                <!-- <img src="images/logo.png" width="80" height="30" alt="Image" /> -->
+                <p> Contact our 24/7 customer support if you have any <br class="hidden-xs"> questions. We'll help you out. </p>
+                <div class="footer-text">
+                    <p> Copyright © 2017 LAMATA. All Rights Reserved.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-5">
+                <h1>Contact Us</h1>
+                <p> Telephone: 01- 2702778-82 <br class="hidden-xs"> Mobile- 2347030040003 <br class="hidden-xs"> Fax: 01- 2702783
+                    <br
+                        class="hidden-xs">
+                        <br class="hidden-xs">
+
+                        <a href="mailto:enquires@lamata-ng.com">enquires@lamata-ng.com</a> </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    </div>
+    <!-- Main Section -->
+    </div>
+    <!-- Wrapper-->
+
+    <!-- Jquery and Js Plugins -->
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/jquery.subscribe.js"></script>
+
+    <script>
+    $('.datepicker').datepicker();
+    
+    </script>
+
+</body>
+
+</html>
